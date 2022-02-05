@@ -1,5 +1,7 @@
 # The Site Configuration
 
+plugins: [jekyll-paginate]
+
 # Import the theme
 theme:
 
@@ -98,6 +100,7 @@ comments:
     repo:         # <gh-username>/<repo>
     issue_term:   # < url | pathname | title | ...>
 
+paginate_path: "page:num"
 paginate: 10
 
 # ------------ The following options are not recommended to be modified ------------------
